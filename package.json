@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "play": "pnpm run -C play dev"
+    "play": "pnpm run -C play dev",
+    "build:icons": "pnpm run -C ./packages/icons build"
   },
   "keywords": [],
   "author": "",

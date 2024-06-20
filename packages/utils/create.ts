@@ -62,7 +62,7 @@ function createBEM(block: string) {
         is,
     }
 }
-export function createNamespace(block: string, namespaceOverrides: string) {
+export function createNamespace(block: string, namespaceOverrides?: string) {
     namespace = namespaceOverrides ? namespaceOverrides : 'sy';
     return createBEM(block)
 }
