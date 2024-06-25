@@ -1,7 +1,7 @@
 @use 'config' as *;
-@forward "config";
+@forward 'config';
 // sy-button
-@mixin b($block){
+@mixin b($block) {
   $B: $namespace + '-' + $block;
   .#{$B} {
     @content;

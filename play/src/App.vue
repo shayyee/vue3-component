@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ArrowLeft, Github } from '@syui/icons'
+import { ArrowLeft, Github } from '@syui/icons';
 </script>
 
 <template>
@@ -11,6 +11,4 @@ import { ArrowLeft, Github } from '@syui/icons'
   </SYIcon>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
