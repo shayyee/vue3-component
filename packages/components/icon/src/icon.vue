@@ -1,12 +1,12 @@
 <template>
-    <i :class="bem.b()" :style="style">
+    <i :class="bem.b()" :style="style" v-bind="$attrs">
         <slot></slot>
     </i>
 </template>
 <script setup lang="ts">
 import { computed } from 'vue'
 import { createNamespace } from '@syui/utils/create'
-import { iconProps } from './icon'
+import { iconProps } from './icon.ts'
 import { addUnit } from '@syui/utils';
 
 defineOptions({
@@ -25,7 +25,7 @@ const style = computed(() => {
 
   return {
     fontSize: addUnit(size),
-    color
+    '--color': color,
   }
 })
 </script>

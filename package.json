@@ -15,5 +15,8 @@
     "@syui/utils": "workspace:^",
     "typescript": "^5.4.5",
     "vue": "^3.4.29"
+  },
+  "devDependencies": {
+    "sass": "^1.77.6"
   }
 }

@@ -1,0 +1,33 @@
+@use 'config' as *;
+@forward "config";
+// sy-button
+@mixin b($block){
+  $B: $namespace + '-' + $block;
+  .#{$B} {
+    @content;
+  }
+}
+// sy-button.is-xxx
+@mixin when($state) {
+  @at-root {
+    &.#{$state-prefix + $state} {
+      @content;
+    }
+  }
+}
+// &--primary => .sy-button--primary
+@mixin m($modifier) {
+  @at-root {
+    #{ & + $modifier-separator + $modifier} {
+      @content;
+    }
+  }
+}
+// &__icon => .sy-button__icon
+@mixin e($element) {
+  @at-root {
+    #{ & + $element-separator + $element} {
+      @content;
+    }
+  }
+}

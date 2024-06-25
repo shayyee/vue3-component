@@ -1,7 +1,7 @@
-/*! Element Plus Icons Vue v1.0.0 */
+/*! SYUI Icons Vue v1.0.0 */
 
 "use strict";
-var ElementPlusIconsVue = (() => {
+var SYIconsVue = (() => {
   var __create = Object.create;
   var __defProp = Object.defineProperty;
   var __getOwnPropDesc = Object.getOwnPropertyDescriptor;

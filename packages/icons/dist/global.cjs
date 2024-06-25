@@ -1,4 +1,4 @@
-/*! Element Plus Icons Vue v1.0.0 */
+/*! SYUI Icons Vue v1.0.0 */
 
 "use strict";
 var __defProp = Object.defineProperty;
